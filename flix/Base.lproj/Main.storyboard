@@ -190,6 +190,7 @@
                                         <size key="customSize" width="206" height="268"/>
                                         <connections>
                                             <outlet property="posterImage" destination="C0s-2F-Zl4" id="BMR-P7-Amp"/>
+                                            <segue destination="KQS-7i-4ZQ" kind="show" id="lnQ-B7-Zg0"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -227,6 +228,9 @@
             <point key="canvasLocation" x="1730" y="80"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="lnQ-B7-Zg0"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
